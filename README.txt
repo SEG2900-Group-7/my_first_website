@@ -1,0 +1,1 @@
+A group project for the SEG2900 course that focuses on creating a website to pitch a product (real or not)
