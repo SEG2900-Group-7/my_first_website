@@ -17,7 +17,6 @@
     position: sticky; 
     top: 0; 
     z-index: 999; 
-    width: 100%; 
     padding-top: 25px;
 }
 
@@ -26,15 +25,14 @@
     justify-content: space-between;
     height: 120px; 
     z-index: 1; 
-    width: 90%; 
+    width: 100%; 
     max-width: 1300px; 
     margin: 0 auto;
-    padding: 0px 0px; 
     border-bottom: 2px solid rgb(199, 199, 199) ;
 }
 
 #navbar__logo {
-    background-color: aqua;
+    background-color: rgb(219, 161, 0);
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%); 
     background-size: 100%; 
     -webkit-background-clip: text; 
@@ -100,15 +98,13 @@
     outline: none; 
     border-radius: 50px; 
     background: #fd7d56; 
-    background-size: 100%; 
-    -webkit-text-fill-color: white; 
-    -moz-text-fill-color: transparent; 
     color: white; 
     font-weight: bold; 
+    font-size: 1.2rem
 }
 
-.nav_button {
-    color: #008CBA; 
+.nav_button:hover {
+    background-color: #e9a642; 
     transition: all 0.2s ease; 
 }
 
