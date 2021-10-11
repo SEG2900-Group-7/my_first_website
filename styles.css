@@ -4,6 +4,7 @@
      padding: 0; 
      font-family: 'Nunito', sans-serif; 
      letter-spacing: 0.05em;
+    
 }
 
 .navbar {
@@ -12,21 +13,24 @@
     display: flex; 
     justify-content: center;
     align-items: center; 
-    font-size: 1.2rem; 
+    font-size: 1rem; 
     position: sticky; 
     top: 0; 
     z-index: 999; 
+    width: 100%; 
+    padding-top: 25px;
 }
 
 .navbar__container {
     display: flex; 
     justify-content: space-between;
-    height: 100px; 
+    height: 120px; 
     z-index: 1; 
-    width: 100%; 
+    width: 90%; 
     max-width: 1300px; 
     margin: 0 auto;
-    padding: 0 50px; 
+    padding: 0px 0px; 
+    border-bottom: 2px solid rgb(199, 199, 199) ;
 }
 
 #navbar__logo {
@@ -101,12 +105,11 @@
     -moz-text-fill-color: transparent; 
     color: white; 
     font-weight: bold; 
-    border: 2px solid, #008CBA;
 }
 
-.nav_button:hover {
+.nav_button {
     color: #008CBA; 
-    transition: all 0.3s ease; 
+    transition: all 0.2s ease; 
 }
 
 .navbar__links:hover {
