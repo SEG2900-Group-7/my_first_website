@@ -2,7 +2,7 @@
     box-sizing: border-box;
      margin: 0; 
      padding: 0; 
-     font-family: 'Nunito', sans-serif; 
+     font-family: 'Syne', sans-serif; 
      letter-spacing: 0.05em;
     
 }
@@ -28,7 +28,7 @@
     width: 100%; 
     max-width: 1300px; 
     margin: 0 auto;
-    border-bottom: 2px solid rgb(199, 199, 199) ;
+
 }
 
 #navbar__logo {
@@ -97,18 +97,57 @@
     border: none; 
     outline: none; 
     border-radius: 50px; 
-    background: #fd7d56; 
+    background: #131313; 
     color: white; 
     font-weight: bold; 
-    font-size: 1.2rem
+    font-size: 1rem
 }
 
 .nav_button:hover {
-    background-color: #e9a642; 
+    background-color: #5a5a5a; 
     transition: all 0.2s ease; 
 }
 
 .navbar__links:hover {
     color: #ffc23d; 
     transition: all 0.2s ease; 
+}
+
+.about_main{
+    margin-top: 5%; 
+    display: flex; 
+    align-items: center;
+}
+ 
+.about_main_container {
+    display: static; 
+    align-items: center; 
+    justify-self: center;
+    margin: 0 auto;  
+    height: 90vh; 
+    width: 100%; 
+    max-width: 1300px; 
+    padding: 0 50px; 
+
+}
+
+.about_main_content h1{
+    font-size: 7rem; 
+
+}
+
+.about_main_content p{
+    font-size: 1.2rem; 
+    max-width: 75%
+}
+
+.about_main_image {
+    display: flex; 
+    align-items: center;
+    margin-top: 5%; 
+}
+
+#about_gradient{
+    height: 50%; 
+    max-width: 100%
 }
