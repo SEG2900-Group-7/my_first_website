@@ -33,7 +33,7 @@
 
 #navbar__logo {
     background-color: rgb(219, 161, 0);
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%); 
+    background-image: linear-gradient(to top, #ff0844 0%, #fffc3d 100%); 
     background-size: 100%; 
     -webkit-background-clip: text; 
     -moz-background-clip: text; 
@@ -127,12 +127,12 @@
     height: 90vh; 
     width: 100%; 
     max-width: 1300px; 
-    padding: 0 50px; 
+    padding: 0 50px 0 50px; 
 
 }
 
-.about_main_content h1{
-    font-size: 7.5rem; 
+.about_main_content h3{
+    font-size: 4rem; 
 
 }
 
@@ -145,11 +145,11 @@
     display: flex; 
     justify-content: center;
     margin-top: 5%; 
-    padding-left: 5%;
-    padding-right: 5%; 
 }
 
 #about_gradient{
     height: 20%; 
     max-width: 1300px; 
+    max-height: 50%; 
 }
+
