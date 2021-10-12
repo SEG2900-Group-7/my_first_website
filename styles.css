@@ -132,7 +132,7 @@
 }
 
 .about_main_content h1{
-    font-size: 7rem; 
+    font-size: 7.5rem; 
 
 }
 
@@ -143,11 +143,13 @@
 
 .about_main_image {
     display: flex; 
-    align-items: center;
+    justify-content: center;
     margin-top: 5%; 
+    padding-left: 5%;
+    padding-right: 5%; 
 }
 
 #about_gradient{
-    height: 45%; 
-    max-width: 100%
+    height: 20%; 
+    max-width: 1300px; 
 }
