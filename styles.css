@@ -4,7 +4,7 @@
     box-sizing: border-box;
      margin: 0; 
      padding: 0; 
-     font-family: 'Syne', sans-serif; 
+     font-family: 'Inter', sans-serif; 
      letter-spacing: 0.05em;
     
 }
@@ -116,74 +116,5 @@
 }
 
 
-/* about CSS */ 
 
-.about_main{
-    margin-top: 5%; 
-    display: flex; 
-    align-items: center;
-}
- 
-.about_main_container {
-    display: block; 
-    align-items: center; 
-    justify-self: center;
-    margin: 0 auto;  
-    height: 100vh; 
-    width: 100%; 
-    max-width: 1300px; 
-    padding: 0 5% 0 5%; 
-
-}
-
-.about_main_content h3{
-    font-size: 4rem; 
-
-}
-
-.about_main_image {
-    display: flex; 
-    justify-content: center;
-    margin-top: 5%; 
-}
-
-#about_gradient{
-    max-width: 1300px; 
-} 
-
-/* meet the team CSS */
-.meet_team_main {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    height: 100vh; 
-}
-
-.meet_team_main h1{
-    font-size: 7rem; 
-    background-size: 100%; 
-    margin-top: 10rem; 
-    margin-bottom: 1rem; 
-}
-
-.team_container{
-    display: flex; 
-    justify-content: center; 
-}
-
-.card{
-    display: inline-block; 
-    margin: 1rem; 
-    height: 500px; 
-    width: 300px; 
-    border-radius: 5px; 
-    background-image: url('placeholder_person.png'); 
-    background-size: cover; 
-    position: relative; 
-}
-
-.card h2{
-    position: absolute; 
-    bottom: 15px; 
-    left: 20px; 
-}
+  
