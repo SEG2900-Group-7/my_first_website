@@ -1,1 +1,3 @@
-A group project for the SEG2900 course that focuses on creating a website to pitch a product (real or not)
+We are Sovas, a company that has developed an A.I. to create an immersive experience for language learning. 
+Team members: Jay Ghosh, Tal Musienko, Talia Lee, Shaylin Thadhani. 
+SEG2900 Web Technologies Project. 
