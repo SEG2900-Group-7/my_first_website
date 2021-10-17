@@ -1,5 +1,24 @@
 <html lang="en">
 <style>
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .center {
   margin: auto;
   text-align: center;
@@ -95,30 +114,48 @@
 <body>
 <div class="center">
     <h1  style= "color: black">
-        Get a Plan!
+        Pricing
     </h1>
 </div>
     <body>
-<div class="centers">
-        <div id="Free Trial">
-            <div class="Plan1">
-                <h2>1 Week Free Trial</h2>
-                <h3>Try it out for one week on us!</h3>
-                <button class="button button1">Start Free Trial</button>
-            </div>
-        
-            <div class="Montly Plan">
-                <h2>Monthly Plan</h2>
-                <h3>From $10 a month!</h3>
-                <button class="button button1">Start Monthly Plan</button>
-            </div>
-        
-            <div class="Yearly Plan">
-                <h2>Yearly Plan</h2>
-                <h3>From $8 a month!</h3>
-                <button class="button button1">Start Yearly Plan</button>
-            </div>
-            
-        </div>
+<div class="row">
+  <div class="column" style="background-color:white;">
+    <h2>Free Trial</h2>
+    <ul>
+  <li>14 days</li>
+  <li>Full access</li>
+  <li>Get a taste of learning</li>
+  </ul>
+  <button class="button button1">Start Free Trial</button>
+
+  </div>
+  <div class="column" style="background-color:white;">
+    <h2>Individual</h2>
+    <ul>
+  <li>Unlimited languages</li>
+  <li>Full access</li>
+  <li>Boost your Brain</li>
+  </ul>
+  <button class="button button1">Start Learning</button>
+  </div>
+  <div class="column" style="background-color:white;">
+    <h2>School</h2>
+        <ul>
+  <li>Unlimited languages</li>
+  <li>Full access</li>
+  <li>Get it for all students</li>
+  </ul>
+  <button class="button button1">Request Price</button>
+  </div>
+  <div class="column" style="background-color:white;">
+    <h2>Enterprise</h2>
+           <ul>
+  <li>Unlimited languages</li>
+  <li>Full access</li>
+  <li>Get it for all members</li>
+  </ul>
+  <button class="button button1">Request Price</button>
+  </div>
+</div>
     </body>
 </html>
