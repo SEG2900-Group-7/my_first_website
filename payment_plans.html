@@ -129,7 +129,9 @@
   <li>Full access</li>
   <li>Boost your Brain</li>
   </ul>
-  <button class="button button1">Start Free Trial</button>
+  <div onmouseover="mOver(this)" onmouseout="mOut1(this)"
+<button class="button button1">Start Free Trial</button>
+</div>
   </div>
   <div class="column" style="background-color:white;">
     <h2>School</h2>
@@ -138,7 +140,9 @@
   <li>Full access</li>
   <li>Get it for all students</li>
   </ul>
-  <button class="button button1">Request Price</button>
+  <div onmouseover="mOver(this)" onmouseout="mOut2(this)"
+<button class="button button1">Request Price</button>
+</div>
   </div>
   <div class="column" style="background-color:white;">
     <h2>Enterprise</h2>
@@ -147,9 +151,24 @@
   <li>Full access</li>
   <li>Get it for all members</li>
   </ul>
-  <button class="button button1">Request Price</button>
+<div onmouseover="mOver(this)" onmouseout="mOut2(this)"
+<button class="button button1">Request Price</button>
+</div>
   </div>
 </div>
 </div>
+<script>
+function mOver(obj) {
+  obj.innerHTML = "Select"
+}
+
+function mOut1(obj) {
+  obj.innerHTML = "Start Free Trial"
+}
+function mOut2(obj) {
+  obj.innerHTML = "Request Price"
+}
+
+</script>
     </body>
 </html>
