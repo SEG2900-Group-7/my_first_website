@@ -98,7 +98,7 @@ html {
 
 .home_container{
   max-width: 1200px;
-  height: 110%;
+  margin: 30px auto 0 auto;
 }
 
 .home_grid{
