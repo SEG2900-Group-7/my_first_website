@@ -6,6 +6,82 @@
     font-family: 'Inter', sans-serif; 
 }
 
+/*nav bar css*/
+.navbar {
+    background: white; 
+    height: 100px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    font-size: 1rem; 
+    position: sticky; 
+    top: 0; 
+    z-index: 999; 
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+.navbar__container {
+    display: flex; 
+    justify-content: space-between;
+    height: 120px; 
+    z-index: 1; 
+    width: 100%; 
+    max-width: 1300px; 
+    margin: 0 auto;
+
+}
+
+#navbar__logo {
+    display: flex; 
+    align-items: center; 
+    cursor: pointer; 
+    text-decoration: none; 
+    font-size: 3rem; 
+    font-weight: 700; 
+    letter-spacing: -0.01em;
+    color: #000
+}
+
+.fa-brain {
+    margin-right: 0.5rem
+}
+
+.logo__icon {
+    margin-right: 1rem; 
+}
+
+.navbar__menu {
+    display: flex; 
+    align-items: center; 
+    list-style: none; 
+    text-align: center; 
+}
+
+.navbar__item{
+    height: 80px;
+}
+
+.navbar__links {
+    color: black; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-decoration: none; 
+    padding: 0 2rem 0 2rem; 
+    height: 100%; 
+    font-size: 1.3rem;  
+    font-weight: 600; 
+    letter-spacing: -0.01em;
+}
+
+
+.navbar__links:hover {
+    color: #999999; 
+    transition: all 0.2s ease; 
+}
+
+/* button */
 .button{
     margin-top: 12px;
     cursor: pointer;
@@ -29,8 +105,8 @@
     color: #000;
   }
 
-/* footer */
 
+/* footer */
 .footer_section {
     height: 20vh;
     display: flex;
