@@ -1,0 +1,123 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Inter', sans-serif; 
+}
+
+.button{
+    margin-top: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 19px 30px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    line-height: inherit;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: 2px solid #000;
+    letter-spacing: -0.01em;
+    transition: background-color 500ms ease;
+  }
+  
+  .button:hover{
+    border: 2px solid #000;
+    background-color: transparent;
+    color: #000;
+  }
+
+/* footer */
+
+.footer_section {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.footer_heading {
+  margin-bottom: 20px;
+  color: #000;
+  font-size: 40px;
+  line-height: 1.1em;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -0.01em;
+}
+
+.footer_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    text-align: center;
+}
+
+.footer_link {
+  color: #000;
+  font-size: 1.2rem;
+  line-height: 1.1em;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+/* popup css */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+  color: #000;
+  font-size: 1.2rem;
+  line-height: 1.1em;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #ececec;
+  color: #000;
+  text-align: center;
+  border-radius: 10px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 40%;
+  margin-left: -80px;
+  font-weight: 500;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #ececec transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+  
