@@ -1,77 +1,14 @@
 <html lang="en">
+<head>
 <style>
-* {
-  box-sizing: border-box;
-}
-
-
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-
-}
-
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.center {
-  margin: auto;
-  text-align: center;
-  width: 60%;
-  padding: 50px;
-}
-.centers {
-  margin: auto;
-  text-align: center;
-  width: 60%;
-  padding: 0 px;
-}
-.button {
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-
-.button1 {
-  background-color: black; 
-  color: white; 
-  border: 2px solid black;
-}
-
-.button1:hover {
-  background-color: white;
-  color: black;
-}
 
 </style>
-<head>
-     <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Start Learning - Sovas</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<title>Start Learning - Sovas</title>
+<link rel="stylesheet" href="pricingstyles.css">
 </head>
-<body>
-
-    <header>
-        <nav class="navbar">
+<body data-new-gr-c-s-check-loaded="14.1034.0" data-gr-ext-installed="" data-new-gr-c-s-loaded="14.1034.0">
+<header>
+  <nav class="navbar">
                 <div class="navbar__container">
                     <a href="/" id="navbar__logo"><i class="fas fa-brain"></i>SOVAS</a>
                     <div class="navbar__toggle" id="mobile-menu">
@@ -80,95 +17,120 @@
                         <span class="bar"></span>
                     </div>
                     <ul class="navbar__menu">
-                        <li class="navbar__item">   
+                        <li class="navbar__item">
                             <a href="index.html" class="navbar__links"> Home </a>
                         </li>
-                        <li class="navbar__item">   
+                        <li class="navbar__item">
                             <a href="about.html" class="navbar__links"> About</a>
                         </li>
-                        <li class="navbar__item">   
+                        <li class="navbar__item">
                             <a href="product_features.html" class="navbar__links"> Why Sovas? </a>
                         </li>
-                        <li class="navbar__item">   
+                        <li class="navbar__item">
                             <a href="payment_plans.html" class="navbar__links"> Pricing </a>
                         </li>
                     </ul>
                 </div>
             </nav>
-    </header>
+</header>
+  <div class="product_main_1 pricing wf-section">
+    <div class="product_container_1 w-container">
+      <h1 class="heading-1">Get started today.</h1>
+      <h3 class="heading-4">
+        Select a plan below and get started on your
+        <span class="text-span">30 day</span>
+         free trial today.
+       </h3>
+     </div>
+   </div>
+       <div class="pricing_main wf-section">
+         <div class="pricing_container w-container">
+           <div class="w-layout-grid pricing_grid">
+             <div class="pricing_slab">
+               <h1 class="pricing_slab_text">Basic</h1>
+               <h1 class="price">$10/mo</h1>
+               <div class="pricing_div_container">
+                 <ul role="list" class="pricing_list">
+                   <li class="pricing_list_item">
+                     Access to 5 avatars
+                   </li>
+                   <li class="pricing_list_item">
+                     Access to 2 languages
+                   </li>
+                   <li class="pricing_list_item">
+                     7 day Email/Chat Support
+                   </li>
+                 </ul>
+               </div>
+               <div onmouseover="mOver(this)" onmouseout="mOut1(this)"
+               <a href="#" class="button pricing w-button">GET STARTED</a>
+               </div>
+             </div>
+             <div id="w-node-d3d0b422-b9a9-fa86-5fd9-0ad90247f752-2a150ae1" class="pricing_slab">
+               <h1 class="pricing_slab_text">Standard</h1>
+               <h1 class="price">$50/mo</h1>
+               <div class="pricing_div_container">
+                 <ul role="list" class="pricing_list">
+                   <li class="pricing_list_item">
+                     Access to all avatars
+                   </li>
+                     <li class="pricing_list_item">
+                       Access to all languages
+                     </li>
+                     <li class="pricing_list_item">
+                       1 day Email/Chat support
+                     </li>
+                   </ul>
+                 </div>
+                 <div onmouseover="mOver(this)" onmouseout="mOut1(this)"
+                 <a href="#" class="button pricing w-button">GET STARTED</a>
+               </div>
+               </div>
+               <div class="pricing_slab">
+                 <h1 class="pricing_slab_text">Commercial</h1>
+                 <h1 class="price">Request&nbsp;Pricing</h1>
+                 <div class="pricing_div_container">
+                   <ul role="list" class="pricing_list">
+                     <li class="pricing_list_item">
+                       Everything in Standard
+                     </li>
+                     <li class="pricing_list_item">
+                       1 day Email/Chat support
+                     </li>
+                     <li class="pricing_list_item">
+                       Multi-user migration.
+                     </li>
+                   </ul>
+                 </div>
+                 <div onmouseover="mOver(this)" onmouseout="mOut2(this)"
+                 <a href="#" class="button pricing w-button ">REQUEST PRICING</a>
+               </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="footer wf-section">
+           <div class="footer_container w-container">
+             <h1 class="footer_heading">SOVAS</h1>
+             <div class="w-layout-grid grid-2">
+               <a href="#" class="footer_link">Contact</a>
+               <a href="#" class="footer_link">Terms &amp;&nbsp;Conditions</a>
+               <a href="#" class="footer_link">Privacy&nbsp;Policy</a>
+             </div>
+           </div>
+         </div>
+         <script>
+         function mOver(obj) {
+           obj.innerHTML = "SELECT"
+         }
 
+         function mOut1(obj) {
+           obj.innerHTML = "GET STARTED"
+         }
+         function mOut2(obj) {
+           obj.innerHTML = "REQUEST PRICE"
+         }
 
-    <main>
-
-    </main>
-
-
-    <footer>
-
-    </footer>
-
-
+         </script>
 </body>
-    <head>
-
-</head>
-<body>
-<div class="center">
-    <h1  style= "color: black">
-        Pricing
-    </h1>
-  <img src="images\PricingGradient.jpeg" width = "1300" class="centers" >
-
-  
-    <body>
-<div class="row">
-  <div class="column" style="background-color:white;">
-    <h2>Individual</h2>
-    <ul>
-  <li>20+ languages</li>
-  <li>Full access</li>
-  <li>Boost your Brain</li>
-  </ul>
-  <div onmouseover="mOver(this)" onmouseout="mOut1(this)"
-<button class="button button1">Start Free Trial</button>
-</div>
-  </div>
-  <div class="column" style="background-color:white;">
-    <h2>School</h2>
-        <ul>
-  <li>20+ languages</li>
-  <li>Full access</li>
-  <li>Get it for all students</li>
-  </ul>
-  <div onmouseover="mOver(this)" onmouseout="mOut2(this)"
-<button class="button button1">Request Price</button>
-</div>
-  </div>
-  <div class="column" style="background-color:white;">
-    <h2>Enterprise</h2>
-           <ul>
-  <li>20+ languages</li>
-  <li>Full access</li>
-  <li>Get it for all members</li>
-  </ul>
-<div onmouseover="mOver(this)" onmouseout="mOut2(this)"
-<button class="button button1">Request Price</button>
-</div>
-  </div>
-</div>
-</div>
-<script>
-function mOver(obj) {
-  obj.innerHTML = "Select"
-}
-
-function mOut1(obj) {
-  obj.innerHTML = "Start Free Trial"
-}
-function mOut2(obj) {
-  obj.innerHTML = "Request Price"
-}
-
-</script>
-    </body>
 </html>
