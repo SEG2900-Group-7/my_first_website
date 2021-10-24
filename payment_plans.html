@@ -92,7 +92,7 @@
                  <div class="pricing_div_container">
                    <ul role="list" class="pricing_list">
                      <li class="pricing_list_item">
-                       Everything in the Standard Package and more
+                       Everything in the Standard Package
                      </li>
                      <li class="pricing_list_item">
                        1 day Email/Chat support
@@ -113,9 +113,11 @@
            <div class="footer_container w-container">
              <h1 class="footer_heading">SOVAS</h1>
              <div class="w-layout-grid grid-2">
-               <a href="#" class="footer_link">Contact</a>
-               <a href="#" class="footer_link">Terms &amp;&nbsp;Conditions</a>
-               <a href="#" class="footer_link">Privacy&nbsp;Policy</a>
+               <div class="popup" onclick="popup()"><u>Contact us:</u>
+               <span class="popuptext" id="myPopup">Contact us as: hello@sovas.com</span>
+               </div>
+               <a href="privacy_policy.html" class="footer_link">Terms &amp;&nbsp;Conditions</a>
+               <a href="privacy_policy.html" class="footer_link">Privacy&nbsp;Policy</a>
              </div>
            </div>
          </div>
@@ -129,6 +131,10 @@
          }
          function mOut2(obj) {
            obj.innerHTML = "REQUEST PRICE"
+         }
+         function popup() {
+           var popup = document.getElementById("myPopup");
+           popup.classList.toggle("show");
          }
 
          </script>
