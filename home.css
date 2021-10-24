@@ -1,6 +1,6 @@
 .home_main{
     margin-top: 30px;
-    height: 90vh;
+    height: 80vh;
     padding: 0 5% 0 5%;
     justify-content: center;
     align-items: center;
@@ -54,7 +54,7 @@
     }
   
   .home_image{
-    height: 90%;
+    height: 100%;
     width: 100%;
     border-radius: 25px;
     grid-column-end: 3;
@@ -84,11 +84,12 @@
     line-height: inherit;
     font-size: 1.1rem;
     font-weight: 600;
+    border: 2px solid #000;
     transition: background-color 500ms ease;
   }
   
   .button:hover{
-    background-color: #ffcf68;
+    background-color: transparent;
     color: #000;
   }
   
@@ -99,6 +100,7 @@
     padding-left: 5%;
     justify-content: center;
     align-items:  center;
+    margin-bottom: -70px;
   }
   
   .hsw_main_container{
