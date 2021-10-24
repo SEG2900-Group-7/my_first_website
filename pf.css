@@ -1,0 +1,145 @@
+/*Product Features Page*/
+.pf_title{
+    display: flex;
+    height: 50vh;
+    padding-right: 5%;
+    padding-left: 5%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("gradient3.jpg");
+    background-position: 100% 50%;
+    background-size: auto;
+  }
+  
+  .pf_big_heading {
+    position: relative;
+    color: #fff;
+    font-size: 100px;
+    line-height: 1.1em;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -0.01em;
+  }
+  
+  .pf_title_text{
+    display: flex;
+    max-width: 1200px;
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 0 auto 0;
+  }
+  
+  .pf_text_and_images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    padding: 0 5% 0 5%;
+  }
+  
+  .pf_container{
+    display: flex;
+    max-width: 1200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin: 0 auto 0 auto;
+  }
+  
+  .pf_grid{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.75fr 0.75fr;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-template-rows: auto;
+  }
+  
+  .pf_text_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .pf_heading{
+    color: #000;
+    font-size: 55px;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: -0.01em
+  }
+  
+  .pf_paragraph{
+    max-width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: Inter, sans-serif;
+    color: #000;
+    font-size: 1.3rem;
+    line-height: 1.5em;
+    letter-spacing: -0.01em;
+  }
+  
+  .pf_image{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    width: 800px;
+  }
+  
+  .pf_start_learning{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    margin-top: 50px;
+    margin-bottom: -40px;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  
+  .pf_start_learning_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: #e4e4e4;
+  }
+  
+  .pf_start_today{
+    margin-bottom: 10px;
+    font-size: 65px; 
+    letter-spacing: -0.01em;
+  }
+  
+  .button{
+    margin-top: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 19px 30px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    line-height: inherit;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: 2px solid #000;
+    letter-spacing: -0.01em;
+    transition: background-color 500ms ease;
+  }
+  
+  .button:hover{
+    border: 2px solid #000;
+    background-color: transparent;
+    color: #000;
+  }

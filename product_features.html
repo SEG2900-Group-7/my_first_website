@@ -1,92 +1,158 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!DOCTYPE html> 
 <html lang = en>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Product Features - Sovas</title>
-        <link rel="stylesheet" href="styles.css">
+        <title>Why Sovas?</title>
+        <link rel="stylesheet" href="site_styles.css">
+        <link rel="stylesheet" href="pf.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
-    
-        <header>
-            <nav class="navbar">
-                <div class="navbar__container">
-                    <a href="/" id="navbar__logo"><i class="fas fa-brain"></i>SOVAS</a>
-                    <div class="navbar__toggle" id="mobile-menu">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </div>
-                    <ul class="navbar__menu">
-                        <li class="navbar__item">   
-                            <a href="index.html" class="navbar__links"> Home </a>
-                        </li>
-                        <li class="navbar__item">   
-                            <a href="about.html" class="navbar__links"> About</a>
-                        </li>
-                        <li class="navbar__item">   
-                            <a href="product_features.html" class="navbar__links"> Why Sovas? </a>
-                        </li>
-                        <li class="navbar__item">   
-                            <a href="payment_plans.html" class="navbar__links"> Pricing </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <!--Main section-->
-        <body>
-            <style>
-                .container {
-                    position: relative;
-                    text-align: center;
-                    color: white;
-                }
-                .WhySovas {
-                    position:absolute;
-                    font-size: xx-large;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%,-50%)
-                }
-            </style>
-            <div class = "container">
-                <img src="images\gradient2.jpg" width ="1000px" height="300px"> 
-                <div class="WhySovas">
-                    <h1>Why Sovas?</h1>
-                </div>
-            </div>
-         <h3>Provides an immersive experience</h3>
-         <img src="images\Talking.jpg" alt="Picture of someone talking">
-         <h3>Better retention of vocabulary than traditional methods</h3>
-         <img src="images\Thinking.png" alt="Thinking">
-         <h3>Enhances fluency through verbal practice</h3>
-         <img src="images\Lightbulb.jpg" alt="Light bulb">
-         <h3>Available in 20 different languages!</h3>
-         <img src="images\Dictionary.jpg" alt="Dictionary">
-         <h2>But dont just take our word for it!</h2>
-         <div class=reviews>
-            <div>
-                <b>Bronislav Rowe</b>
-                <br>
-                "This product is incredible! My English is much better than when I started"
-            </div>
-            <div>
-                <b>Agner Schoorl</b>
-                <br>
-                "My child found regular Spanish class boring. With Sovas he was more engaged and learnt more!"
-            </div>
-            <div>
-                <b>Phyliss Schultz</b>
-                <br>
-                "I couldn't believe how well the app works! It was like magic"
-            </div>
-         </div> 
-            <a href = "payment_plans.html"><h1>Start Learning Today!</h1></a>
-        </body>
 
+            <header>
+      <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"><i class="fas fa-brain"></i>SOVAS</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">   
+                    <a href="index.html" class="navbar__links"> HOME </a>
+                </li>
+                <li class="navbar__item">   
+                    <a href="about.html" class="navbar__links"> ABOUT </a>
+                </li>
+                <li class="navbar__item">   
+                    <a href="product_features.html" class="navbar__links"> WHY SOVAS? </a>
+                </li>
+                <li class="navbar__item">   
+                    <a href="payment_plans.html" class="navbar__links"> PRICING </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  </header>
+    
+<!--Why Sovas? big title-->
+  <main>
+    <div class="pf_title">
+        <div class="pf_title_text"> 
+            <h1 class="pf_big_heading">Why Sovas?</h1>
+        </div>
+    </div>
+
+<!--product features-->
+    <div class="pf_text_and_images"> 
+      <div class="pf_container">
+        <div class="pf_grid"> 
+          <div class="pf_text_div"> 
+            <h2 class="pf_heading"> 
+              There's nothing out there like us
+            </h2>
+            <div class="pf_paragraph">
+              There's no other service out there like Sovas which provides its users with immersive experiences directed to maximize language learning.
+            </div>
+          </div>
+          <img src="images\Innovation2.svg" alt="Lightbulb" class = "pf_image">
+        </div>
+       </div>
+      </div>
+    </div>
+    <div class="pf_text_and_images"> 
+      <div class="pf_container"> 
+        <div class="pf_grid"> 
+          <img src="images\Lunch2.svg" alt="Lunch break chat" class = "pf_image">
+          <div class="pf_text_div">
+            <h2 class="pf_heading">
+              Enhanced fluency
+            </h2>
+            <div class="pf_paragraph"> 
+              Yes, language learning apps are cool. However, they don't help you enhance your fluency like Sovas does through convincingly fluid conversation. 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pf_text_and_images"> 
+      <div class="pf_container"> 
+        <div class="pf_grid"> 
+          <div class="pf_text_div">
+            <h2 class="pf_heading"> 
+              Available in 20+ different languages
+            </h2>
+            <div class="pf_paragraph"> 
+              Sovas will be available in 20+ different languages at launch. However, this database will be updated regularly until we support most if not all of the languages in the world!
+            </div>
+          </div>
+          <img src="images\Convo2.svg" alt="Conversation" class = "pf_image">
+        </div>
+      </div>
+    </div>
+    <div class="pf_text_and_images">  
+      <div class="pf_container"> 
+        <div class="pf_grid"> 
+          <img src="images\Creative2.svg" alt="Ease of Use" class = "pf_image">
+          <div class="pf_text_div"> 
+            <h2 class="pf_heading"> 
+              Simple to use
+            </h2>
+            <div class="pf_paragraph"> 
+              Sovas does not require much setup to use! Just sign up, log in and start learning. The A.I. adjusts the conversation to ensure smooth learning. If you do not know the language, you can always select the "Start from scratch" option!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <!-- start learning -->
+    <div class="pf_start_learning">
+      <div class="pf_container">
+        <div class="pf_start_learning_content">
+          <h1 class="pf_start_today"> 
+            So, what are you waiting for?
+          </h1>
+          <a href="payment_plans.html" class="button">START LEARNING TODAY</a> 
+        </div>
+      </div>
+    </div>
+    </main>
+
+  <!-- footer -->
+      <footer>
+      <div class="footer_section">
+        <div class="footer_container">
+          <h3 class = "footer_heading"> SOVAS </h3>
+          <div class="footer_grid">
+            <div class="popup" onclick="popup()"><u>Contact Us</u>
+               <span class="popuptext" id="myPopup">Email: hello@sovas.com</span>
+              </div>
+           <a href="ToS.html" class="footer_link">Terms & Conditions</a>
+           <a href="privacy_policy.html" class="footer_link">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function popup() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+    </script>
 </html>
