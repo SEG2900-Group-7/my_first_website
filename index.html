@@ -10,113 +10,125 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <header>
-            <nav class="navbar">
-              <div class="navbar__container">
-                  <a href="/" id="navbar__logo"><i class="fas fa-brain"></i>SOVAS</a>
-                  <div class="navbar__toggle" id="mobile-menu">
-                      <span class="bar"></span>
-                      <span class="bar"></span>
-                      <span class="bar"></span>
-                  </div>
-                  <ul class="navbar__menu">
-                      <li class="navbar__item">   
-                          <a href="index.html" class="navbar__links"> HOME </a>
-                      </li>
-                      <li class="navbar__item">   
-                          <a href="about.html" class="navbar__links"> ABOUT </a>
-                      </li>
-                      <li class="navbar__item">   
-                          <a href="product_features.html" class="navbar__links"> WHY SOVAS? </a>
-                      </li>
-                      <li class="navbar__item">   
-                          <a href="payment_plans.html" class="navbar__links"> PRICING </a>
-                      </li>
-                  </ul>
+    <header>
+        <nav class="navbar">
+          <div class="navbar__container">
+              <a href="/" id="navbar__logo"><i class="fas fa-brain"></i>SOVAS</a>
+              <div class="navbar__toggle" id="mobile-menu">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
               </div>
-          </nav>
-        </header>
+              <ul class="navbar__menu">
+                  <li class="navbar__item">   
+                      <a href="index.html" class="navbar__links"> HOME </a>
+                  </li>
+                  <li class="navbar__item">   
+                      <a href="about.html" class="navbar__links"> ABOUT </a>
+                  </li>
+                  <li class="navbar__item">   
+                      <a href="product_features.html" class="navbar__links"> WHY SOVAS? </a>
+                  </li>
+                  <li class="navbar__item">   
+                      <a href="payment_plans.html" class="navbar__links"> PRICING </a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+    </header>
 
-        <div class="home_main">
-            <div class="home_container">
-                <div class="home_grid">
-                    <div class="home_text_container">
-                        <h1 class = "home_heading"> 
-                        Language learning, 
-                        <br>
-                        simplified.
-                        </h1>
-                        <div class="home_para">
-                        Sovas is an A.I. that helps people increase language fluency faster by creating an immersive environment for them.
-                        </div>
-                        <div class="button_wrapper">
-                            <a href="product_features.html" class="button">WHY SOVAS?</a>
-                            <a href="#hsw" class="button">HOW IT WORKS</a>
-                        </div>
-                    </div>
-                    <img src="images/gradient3.jpg" class = "home_image" alt="image">
-                </div>
-            </div>
-        </div>
-        <div class="hsw_main_section" id = "hsw">
-            <div class="hsw_main_container">
-            <h1 class="home_heading">
-                How Sovas Works.
-            </h1>
-                <div class="hsw_grid_container">
-                <div class="hsw_grid">
-                    <div class="hsw_step">
-                        <img src="images/avatar.png" alt="" width = "250" class = "hsw_image">
-                        <h4 class = "hsw_heading" >
-                            Select your AI.
-                        </h4>
-                        <p class = "hsw_para">
-                            Choose from our assortment of avatars or create your own. You can also choose your background. 
-                        </p>
-                    </div>
-                    <div class="hsw_step">
-                        <img src="images/select language.png" alt="" width = "250" class = "hsw_image">
-                        <h4 class = "hsw_heading" >
-                            Select the language.
-                        </h4>
-                        <p class = "hsw_para">
-                            Select the language you want to learn. You must have a basic understanding of this language and its syntax. 
-                        </p>
-                    </div>
-                    <div class="hsw_step">
-                        <img src="images/start learning.png" alt="" width = "250" class = "hsw_image">
-                        <h4 class = "hsw_heading" >
-                            Start speaking.
-                        </h4>
-                        <p class = "hsw_para">
-                            Select a topic of conversation and start speaking. The A.I. will diagnose your proficiency level and adjust the conversation to optimize your learning.
-                        </p>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
-        <footer>
-          <div class="footer_section">
-            <div class="footer_container">
-              <h3 class = "footer_heading"> SOVAS </h3>
-              <div class="footer_grid">
-                <div class="popup" onclick="popup()"><u>Contact Us</u>
-                   <span class="popuptext" id="myPopup">Email: hello@sovas.com</span>
-                  </div>
-               <a href="#" class="footer_link">Terms & Conditions</a>
-               <a href="#" class="footer_link">Privacy Policy</a>
+      <main>
+      <div class="pricing_head_section">
+          <div class="pricing_head_container"> 
+              <h1 class="pricing_big_heading">Get Started Today</h1>
+              <h3 class = "pricing_sub_heading"> Select a plan below and get started on your 
+              <span class="sub_heading_underline">15 day</span>
+               free trial today.
+               </h3>
+          </div>
+      </div>
+  
+      <div class="pricing_main_section">
+        <div class="pricing_main_container">
+          <div class="pricing_main_grid">
+  
+            <div class="pricing_block">
+              <h1 class = "pricing_block_heading">
+                Basic
+              </h1>
+              <h3 class = "price"> 
+                $10/mo
+              </h3>
+              <div class="pricing_div_container">
+                <ul class = "pricing_list">
+                  <li class = "pricing_list_feature">Access to 1 avatar.</li>
+                  <li class = "pricing_list_feature">Access to 2 languages.</li>
+                  <li class = "pricing_list_feature">7 day Email/Chat support.</li>
+                </ul>  
               </div>
+              <a href="#" class = "button">GET STARTED</a>
+            </div>
+  
+            <div class="pricing_block">
+              <h1 class = "pricing_block_heading">
+                Standard
+              </h1>
+              <h3 class = "price"> 
+                $45/mo
+              </h3>
+              <div class="pricing_div_container">
+                <ul class = "pricing_list">
+                  <li class = "pricing_list_feature">Access to all avatars.</li>
+                  <li class = "pricing_list_feature">Access to all languages.</li>
+                  <li class = "pricing_list_feature">1 day Email/Chat support.</li>
+                </ul>  
+              </div>
+              <a href="#" class = "button">GET STARTED</a>
+            </div>
+  
+            <div class="pricing_block">
+              <h1 class = "pricing_block_heading">
+                Commercial
+              </h1>
+              <h3 class = "price"> 
+                Request Pricing
+              </h3>
+              <div class="pricing_div_container">
+                <ul class = "pricing_list">
+                  <li class = "pricing_list_feature">Everything in the standard package.</li>
+                  <li class = "pricing_list_feature">Automated multi-user migration.</li>
+                  <li class = "pricing_list_feature">7 day Email/Chat support.</li>
+                </ul>  
+              </div>
+              <a href="#" class = "button">REQUEST PRICING</a>
+            </div>
+         
+          </div>
+        </div>
+      </div>
+      </main>
+  
+      <footer>
+        <div class="footer_section">
+          <div class="footer_container">
+            <h3 class = "footer_heading"> SOVAS </h3>
+            <div class="footer_grid">
+              <div class="popup" onclick="popup()"><u>Contact Us</u>
+                 <span class="popuptext" id="myPopup">Email: hello@sovas.com</span>
+                </div>
+             <a href="#" class="footer_link">Terms & Conditions</a>
+             <a href="#" class="footer_link">Privacy Policy</a>
             </div>
           </div>
-        </footer>
-
-        <script>
-          function popup() {
-            var popup = document.getElementById("myPopup");
-            popup.classList.toggle("show");
-          }
-        </script>
+        </div>
+      </footer>
+  
+      <script>
+        function popup() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+      </script>
+      
     </body>
-</html>
+  </html>
