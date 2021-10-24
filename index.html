@@ -97,11 +97,26 @@
                 </div>
             </div>
         </div>
-        <script src="script.js"></script>
-        <div class=footer>
-            <footer>
-            <p>Contact us: hello@sovas.com</p>
-            </footer>
-        </div>
+        <footer>
+          <div class="footer_section">
+            <div class="footer_container">
+              <h3 class = "footer_heading"> SOVAS </h3>
+              <div class="footer_grid">
+                <div class="popup" onclick="popup()"><u>Contact Us</u>
+                   <span class="popuptext" id="myPopup">Email: hello@sovas.com</span>
+                  </div>
+               <a href="#" class="footer_link">Terms & Conditions</a>
+               <a href="#" class="footer_link">Privacy Policy</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <script>
+          function popup() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+          }
+        </script>
     </body>
 </html>
