@@ -122,7 +122,7 @@
 
 }
 
-.product_main_1 {
+.main_product{
     display: flex;
     height: 50vh;
     padding-right: 5%;
@@ -152,7 +152,7 @@ html {
     font-family: sans-serif;
 
 }
-.product_container_1 {
+.container_product_1{
     display: flex;
     max-width: 1200px;
 
@@ -168,7 +168,7 @@ html {
 
     grid-template-rows: auto auto;
 }
-.w-container {
+.container_1 {
     margin-left: auto;
     margin-right: auto;
     max-width: 940px;
@@ -196,7 +196,7 @@ html {
     -ms-text-size-adjust: 100%;
 
 }
-.heading-1 {
+.heading_main {
     position: relative;
     font-family: Inter, sans-serif;
     color: #fff;
@@ -217,7 +217,7 @@ h1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-.heading-4 {
+.heading_sub {
     margin-top: 0px;
     font-family: Inter, sans-serif;
     color: #fff;
@@ -237,7 +237,7 @@ h3 {
 .text-span {
     text-decoration: underline;
 }
-.pricing_main {
+.main_pricing {
     display: flex;
     height: 80vh;
 
@@ -245,32 +245,27 @@ h3 {
 
     align-items: center;
 }
-.pricing_container {
+.container_pricing {
     display: flex;
 
     justify-content: center;
 
     align-items: center;
 }
-.w-container {
-    max-width: 728px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.pricing_grid {
+.grid_pricing {
 
     align-items: stretch;
     grid-column-gap: 40px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
 }
-.w-layout-grid {
+.layout-grid {
     display: grid;
     grid-auto-columns: 1fr;
     grid-row-gap: 16px;
     grid-column-gap: 16px;
 }
-.pricing_slab {
+.slab_pricing {
     display: flex;
     width: 350px;
     height: 550px;
@@ -284,7 +279,7 @@ h3 {
     border-radius: 20px;
     background-color: #ececec;
 }
-.pricing_slab_text {
+.slab_pricing_text {
     margin-top: 0px;
     margin-bottom: 5px;
     font-family: Inter, sans-serif;
@@ -304,7 +299,7 @@ h3 {
     font-style: italic;
     font-weight: 600;
 }
-.pricing_div_container {
+.container_pricing_div{
     display: flex;
     width: 100%;
     height: auto;
@@ -316,7 +311,7 @@ h3 {
 
     align-items: center;
 }
-.pricing_list {
+.list_pricing {
 
     display: -ms-flexbox;
     display: flex;
@@ -342,7 +337,7 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
-.pricing_list_item {
+.list_pricing_item {
     margin-top: 9px;
     margin-bottom: 9px;
     font-family: Inter, sans-serif;
@@ -395,7 +390,7 @@ li {
     font-size: 16px;
     font-weight: 600;
 }
-.w-button {
+.more_button {
     display: inline-block;
     color: white;
     line-height: inherit;
@@ -405,7 +400,7 @@ li {
     text-decoration-color: initial;
     cursor: pointer;
 }
-.w-button:hover {
+.more_button:hover {
   background-color: white;
   color: black;
 }
