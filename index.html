@@ -1,70 +1,105 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Sovas</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <nav class="navbar">
-            <div class="navbar__container">
-                <a href="/" id="navbar__logo"><i class="fas fa-brain"></i>SOVAS</a>
-                <div class="navbar__toggle" id="mobile-menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0" >
+        <title>Sovas</title>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="navbar__container">
+                    <a href="/" id="navbar__logo"><i class="fas fa-brain"></i>SOVAS</a>
+                    <div class="navbar__toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="navbar__menu">
+                        <li class="navbar__item">   
+                            <a href="index.html" class="navbar__links"> Home </a>
+                        </li>
+                        <li class="navbar__item">   
+                            <a href="about.html" class="navbar__links"> About</a>
+                        </li>
+                        <li class="navbar__item">   
+                            <a href="product_features.html" class="navbar__links"> Why Sovas? </a>
+                        </li>
+                        <li class="navbar__item">   
+                            <a href="payment_plans.html" class="navbar__links"> Pricing </a>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="navbar__menu">
-                    <li class="navbar__item">   
-                        <a href="index.html" class="navbar__links"> Home </a>
-                    </li>
-                    <li class="navbar__item">   
-                        <a href="about.html" class="navbar__links"> About</a>
-                    </li>
-                    <li class="navbar__item">   
-                        <a href="product_features.html" class="navbar__links"> Why Sovas? </a>
-                    </li>
-                    <li class="navbar__item">   
-                        <a href="payment_plans.html" class="navbar__links"> Pricing </a>
-                    </li>
-                </ul>
+            </nav>
+        </header>
+        <div class="home_main">
+            <div class="home_container">
+                <div class="home_grid">
+                    <div class="home_text_container">
+                        <h1 class = "home_heading"> 
+                        Language learning, 
+                        <br>
+                        simplified.
+                        </h1>
+                        <div class="home_para">
+                        Sovas is an A.I. that helps people increase language fluency faster by creating an immersive environment for them.
+                        </div>
+                        <div class="button_wrapper">
+                            <a href="product_features.html" class="button">WHY SOVAS?</a>
+                            <a href="#hsw" class="button">HOW IT WORKS</a>
+                        </div>
+                    </div>
+                    <img src="nice_gradient_2.jpg" class = "home_image" alt="image">
+                </div>
             </div>
-        </nav>
-    </header>
-    <div class=mainDiv>
-        <div class=imageDiv>
-            <div class=leftIntro>
-                <p>Language Learning, 
-                <br>Simplified</p>
+        </div>
+        <div class="hsw_main_section" id = "hsw">
+            <div class="hsw_main_container">
+            <h1 class="home_heading">
+                How Sovas Works.
+            </h1>
+                <div class="hsw_grid_container">
+                <div class="hsw_grid">
+                    <div class="hsw_step">
+                        <img src="avatar.png" alt="" width = "250" class = "hsw_image">
+                        <h4 class = "hsw_heading" >
+                            Select your AI.
+                        </h4>
+                        <p class = "hsw_para">
+                            Choose from our assortment of avatars or create your own. You can also choose your background. 
+                        </p>
+                    </div>
+                    <div class="hsw_step">
+                        <img src="select language.png" alt="" width = "250" class = "hsw_image">
+                        <h4 class = "hsw_heading" >
+                            Select the language.
+                        </h4>
+                        <p class = "hsw_para">
+                            Select the language you want to learn. You must have a basic understanding of this language and its syntax. 
+                        </p>
+                    </div>
+                    <div class="hsw_step">
+                        <img src="start learning.png" alt="" width = "250" class = "hsw_image">
+                        <h4 class = "hsw_heading" >
+                            Start speaking.
+                        </h4>
+                        <p class = "hsw_para">
+                            Select a topic of conversation and start speaking. The A.I. will diagnose your proficiency level and adjust the conversation to optimize your learning.
+                        </p>
+                    </div>
+                </div>
+                </div>
             </div>
-                <!--
-                <img class=topImage src="url" alt="image">
-                -->
         </div>
-        <div class=centerText>
-            <center>
-                <p>Sovas helps people learn & understand languages
-                <br>through an immersive experience</p>
-            </center>
+        <script src="script.js"></script>
+        <div class=footer>
+            <footer>
+            <p>Contact us: hello@sovas.com</p>
+            </footer>
         </div>
-        <div class=indexButton>
-            <a href="product_features.html">Learn more</a>
-        </div>
-        <!--
-        <div class=video>
-            <video>
-                <source scr="video" type="video/mp4">
-            </video>
-        </div>
-        -->
-    </div>
-    <div class=footer>
-    <footer>
-    <p>Contact us: hello@sovas.com</p>
-    </footer>
-    </div>
-</body>
+    </body>
 </html>
