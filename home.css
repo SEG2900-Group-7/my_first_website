@@ -97,8 +97,10 @@ html {
 }
 
 .home_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 1200px;
-  height: 110%;
 }
 
 .home_grid{
