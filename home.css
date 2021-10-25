@@ -114,6 +114,7 @@ html {
   grid-column-end: 3;
   grid-column-start: 1;
   grid-row-start: 1;
+  margin-bottom: 15%;
 }
 
 .home_heading{
