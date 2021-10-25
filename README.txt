@@ -7,3 +7,5 @@ SEG2900 Web Technologies Project.
 Notes: 
 Why Sovas? is our Product Page. 
 Payment_plans.html is our pricing page.
+
+Website link: https://seg2900-group-7.github.io/my_first_website/
