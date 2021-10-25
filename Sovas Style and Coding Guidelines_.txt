@@ -1,0 +1,76 @@
+﻿Sovas Style and Coding Guidelines:
+
+
+Colour:
+* White for the header & button text in about, why sovas?, and pricing page. Black for the rest of the text
+* Black text for all of the homepage. 
+* Orange, red, yellow and pinkish brown gradient for the header picture (picture
+
+
+Main color palette: 
+ - (Oranges: #f97850, #fb4d38)
+ - (Reds: #fb0c3a, #f90d1b, #fc1e54)
+ - (Yellow: #fc9c64)
+ - (Pink: #e6b4b2, #eb948c, #fc5c64) - in gradient.
+
+
+  - Yellow (#fc9c64) illustrations across the site sourced from many pixels.co. 
+  - Footer will include the company name (i.e. Sovas) and will include Contact, Terms & Conditions & Privacy Policy
+  - Contact will not lead anywhere, but hovering over it will pop up a box with our email
+  - Terms & Conditions and Privacy Policy will lead to their own respective webpages. These pages will be updated with CSS in our final deliverable. 
+
+
+Typography:
+* Inter, Sans serif font
+* https://fonts.google.com/specimen/Inter
+* Text size will vary between pages in the range of 100px to 1.1rem. 
+* The button text sizes will remain the same at 1.1rem. 
+
+
+
+
+
+
+Home:
+* Include 2 buttons: One to jump to the bottom of the page to explain how Sovas works briefly, and another one to go straight to Why Sovas?
+* Have the contact email bar at the bottom at all times
+
+
+
+
+
+
+About:
+* Our mission to make language learning simpler
+* Add memojis to represent ourselves
+
+
+Why Sovas?:
+* Created a grid where the text and images crisscross positions every time
+* Alternate between text on left and image on right and text on right and image on left
+* Include a large box at the bottom to entice the user to sign up for Sovas!
+
+
+Pricing Plans:
+
+
+* Create three different boxes, each with their own payment plan
+* The first is basic, which will be about 10 bucks a month, which will give the user some basic features such as 5 avatars, 2 languages they can learn (of their choosing), and regular priority email (idk, 7 days max?) & live chat support
+* Standard will have to be quite a bit more expensive but also will have all the features. Let’s make it maybe… 45 dollars? Might be a bit steep but we can decide later
+* Access to all avatars and languages
+* Priority email support (probably max a day response time) and chat support
+* Now the big plan, the commercial plan, will include everything that the Standard plan gives, but could be used by multiple users at once via multi-user migration
+* Price will be decided on a case by case basis 
+
+
+
+
+
+
+Reviews:
+
+
+* Thought about having it at the bottom of the product features page, but there might be a better place for it somewhere else (currently omitted from the website but may come back)
+
+
+NOTE: As of October 24th, 2021 the home page is not responsive on Google Chrome (the image is shortened), but works properly on Safari. This is currently being investigated.
