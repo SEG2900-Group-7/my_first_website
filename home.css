@@ -103,9 +103,11 @@ html {
   max-width: 1200px;
 }
 
+
 .home_grid{
   display: grid;
-  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.25fr 1fr 0.5fr;
   grid-row-gap: 16px;
 }
 
@@ -113,10 +115,9 @@ html {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  grid-column-end: 3;
   grid-column-start: 1;
-  grid-row-start: 1;
-  margin-bottom: 15%;
+  grid-column-end: 3;
+  grid-row-start: 2;
 }
 
 .home_heading{
@@ -146,9 +147,10 @@ html {
   border-radius: 25px;
   grid-column-end: 3;
   grid-column-start: 2;
-  grid-row-end: 2;
+  grid-row-end: 4;
   grid-row-start: 1;
 }
+  
 
 .button_wrapper{
   display: flex;
