@@ -1,26 +1,32 @@
 .about_main_section{
-    height: 75vh;
+    height: 74vh;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-right: 5%;
     padding-left: 5%; 
-    background-image: url(images/gradient3.jpg);
-    background-position: 50% 0%;
   }
   
   .about_main_container{
-    max-width: 1200px;
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 1300px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
+    background-image: url(images/gradient3.jpg);
+    background-color: black;
+    background-position: 50% 0%;
+    box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.01);
+    border-radius: 20px;
   }
   
   .about_heading{
     color: #fff;
-    font-size: 100px;
+    font-size: 85px;
     line-height: 1.1em;
     letter-spacing: -0.01em;
   }
@@ -31,13 +37,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 16px;
+    margin-top: 0px;
     margin-bottom: 16px;
     padding: 0 5% 0 5%;
   }
   
   .meet_team_head_text_wrapper{
-    width: 60%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,9 +94,12 @@
   @media screen and (max-width: 960px) {
     .about_main_section{
       height: auto;
-      padding: 20vh 5%;
     }
-  
+
+    .about_main_container{
+      height: auto;
+      padding: 18vh 10%;
+    }
   
     .meet_team_section{
       height: auto;
@@ -134,9 +143,13 @@
   @media screen and (max-width: 600px) {
     .about_main_section{
       height: auto;
-      padding: 15vh 5%;
     }
-  
+
+    .about_main_container{
+      height: auto;
+      padding: 15vh 10%;
+    }
+
     .meet_team_section{
       height: auto;
       padding-top: 5vh;
