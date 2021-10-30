@@ -74,6 +74,7 @@
   .team_image_person{
     margin-bottom: 15px;
     border-radius: 20px;
+    width: 100%;
   }
   
   .team_name{
@@ -81,4 +82,94 @@
     line-height: 1.1em;
     font-weight: 600;
     text-align: center;
+  }
+
+
+  @media screen and (max-width: 960px) {
+    .about_main_section{
+      height: auto;
+      padding: 20vh 5%;
+    }
+  
+  
+    .meet_team_section{
+      height: auto;
+      padding-top: 5vh;
+      padding-bottom: 5vh;
+    }
+  
+    .meet_team_head_text{
+      font-size: 70px;
+      line-height: 1.1em;
+      font-weight: 700;
+      text-align: center;
+    }
+  
+    .team_image_person{
+      margin-bottom: 5px;
+      border-radius: 20px;
+      width: 50%;
+    }
+  
+     .team_name{
+      font-size: 2rem;
+    }
+  
+    .about_heading{
+      color: #fff;
+      font-size: 70px;
+      line-height: 1.1em;
+      letter-spacing: -0.01em;
+    }
+  
+    .meet_team_grid{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-row-gap: 70px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .about_main_section{
+      height: auto;
+      padding: 15vh 5%;
+    }
+  
+    .meet_team_section{
+      height: auto;
+      padding-top: 5vh;
+    }
+  
+    .meet_team_head_text{
+      font-size: 50px;
+      line-height: 1.1em;
+      font-weight: 700;
+      text-align: center;
+    }
+  
+    .team_image_person{
+      margin-bottom: 5px;
+      border-radius: 20px;
+      width: 50%;
+    }
+  
+     .team_name{
+      font-size: 1.5rem;
+    }
+  
+    .about_heading{
+      color: #fff;
+      font-size: 50px;
+      line-height: 1.1em;
+      letter-spacing: -0.01em;
+    }
+  
+    .meet_team_grid{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-row-gap: 70px;
+    }
   }
