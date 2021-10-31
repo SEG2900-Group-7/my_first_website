@@ -1,4 +1,4 @@
-﻿Sovas Style and Coding Guidelines:
+Sovas Style and Coding Guidelines:
 
 
 Colour:
@@ -30,12 +30,6 @@ Main color palette:
 
 
 - Terms & Conditions and Privacy Policy will lead to their own respective webpages. These pages will be updated with CSS in our final deliverable. 
-
-
-
-
-
-
 
 
 Typography:
@@ -77,7 +71,6 @@ Meet the Team:
 
 
 
-
 Why Sovas?:
 Hero Section: 
 * 85px heading in the hero section - “Why Sovas?”
@@ -113,12 +106,9 @@ Main Section:
 * Price will be decided on a case by case basis 
 
 
-
-
 Reviews:
-
 
 * Thought about having it at the bottom of the product features page, but there might be a better place for it somewhere else (currently omitted from the website but may come back)
 
-
 NOTE: As of October 24th, 2021 the home page is not responsive on Google Chrome (the image is shortened), but works properly on Safari. This is currently being investigated.
+
