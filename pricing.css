@@ -41,7 +41,7 @@
     color: #fff;
     font-size: 22px;
     line-height: 1.3em;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: -0.01em;
     text-align: center;
   }
@@ -190,11 +190,12 @@
 
     .pricing_head_container{
         height: auto;
-        padding: 20vh 10%;
+        padding: 15vh 10%;
     }
 
     .pricing_big_heading{
       color: #fff;
+      font-size: 50px;
       line-height: 1.1em;
       letter-spacing: -0.01em;
       margin-bottom: 20px;
