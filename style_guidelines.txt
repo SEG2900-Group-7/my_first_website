@@ -39,8 +39,8 @@ Main color palette:
 
 
 Typography:
-* Inter, Sans serif font
-* https://fonts.google.com/specimen/Inter
+* Epilogue, Sans serif font
+* https://fonts.google.com/specimen/Epilogue
 * Heading text size in the range of 27px - 100px
 * Paragraph text size in the range of 1.1rem - 3rem
 * The button text sizes will remain all across the site at 1.1rem. 
@@ -58,7 +58,7 @@ Hero section:
 
 
 How Sovas Works?: 
-* 100px heading 
+* 85px heading 
 * 1.1rem paragraph. 
 * Grid with three steps of how sovas works. 
 * Three Yellow illustrations.
@@ -66,7 +66,7 @@ How Sovas Works?:
 
 About:
 Hero Section: 
-* 100px heading in the hero section - “It is our mission to make language learning a simpler task.”
+* 85px heading in the hero section - “It is our mission to make language learning a simpler task.”
 * Gradient background.
 
 
@@ -80,7 +80,7 @@ Meet the Team:
 
 Why Sovas?:
 Hero Section: 
-* 100px heading in the hero section - “Why Sovas?”
+* 85px heading in the hero section - “Why Sovas?”
 * Gradient background.
 
 
@@ -96,7 +96,7 @@ Main Section:
 
 Pricing Plans:
 Hero Section: 
-* 100px heading in the hero section - “Get started Today”
+* 85px heading in the hero section - “Get started Today”
 * 1.5rem sub heading - “Select a plan below and get started on your 15 day free trial today.”
 * Gradient background.
 
