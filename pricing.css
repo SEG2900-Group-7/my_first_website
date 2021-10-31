@@ -21,6 +21,7 @@
     margin-left: auto;
     background-image: url("images/gradient3.jpg");
     background-position: 100% 50%;
+    box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.01);
     background-size: auto;
     border-radius: 20px;
   }
@@ -195,6 +196,7 @@
 
     .pricing_big_heading{
       color: #fff;
+      font-size: 50px;
       line-height: 1.2em;
       letter-spacing: -0.01em;
       margin-bottom: 20px;
@@ -202,7 +204,7 @@
 
     .pricing_sub_heading{
       font-size: 20px;
-      line-height: 1.5em;
+      line-height: 1.3em;
     }
     
     .pricing_main_grid{
