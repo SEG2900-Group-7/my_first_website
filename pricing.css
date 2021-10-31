@@ -10,8 +10,8 @@
   
   .pricing_head_container{
     height: 100%;
-    padding-left: 16vw;
-    padding-right: 16vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
     max-width: 1300px;
     display: flex;
     align-items: center;
@@ -30,7 +30,7 @@
     position: relative;
     color: #fff;
     font-size: 85px;
-    line-height: 1.1em;
+    line-height: 1.2em;
     font-weight: 700;
     text-align: center;
     letter-spacing: -0.01em;
@@ -41,7 +41,7 @@
     margin-top: 0px;
     color: #fff;
     font-size: 22px;
-    line-height: 1.3em;
+    line-height: 1.5em;
     font-weight: 500;
     letter-spacing: -0.01em;
     text-align: center;
@@ -145,7 +145,6 @@
     .pricing_big_heading{
       color: #fff;
       font-size: 70px;
-      line-height: 1.3em;
       letter-spacing: -0.01em;
     }
 
@@ -197,14 +196,12 @@
     .pricing_big_heading{
       color: #fff;
       font-size: 50px;
-      line-height: 1.2em;
       letter-spacing: -0.01em;
       margin-bottom: 20px;
     }
 
     .pricing_sub_heading{
       font-size: 20px;
-      line-height: 1.3em;
     }
     
     .pricing_main_grid{
@@ -217,7 +214,7 @@
     .pricing_main_section{
       height: auto;
       margin-top: 70px;
-      margin-bottom: 70px;
+      margin-bottom: 20px;
     }
 
     .pricing_block{
