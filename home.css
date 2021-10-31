@@ -3,7 +3,7 @@
   box-sizing: border-box;
   margin: 0; 
   padding: 0; 
-  font-family: 'Inter', sans-serif; 
+  font-family: 'Epilogue', sans-serif;
 }
 
 /* home css */
@@ -179,7 +179,7 @@
 .home_heading{
   position: relative;
   color: #000;
-  font-size: 75px;
+  font-size: 70px;
   line-height: 1.1em;
   letter-spacing: -0.01em;
 }
@@ -272,7 +272,7 @@
 
  .home_para{
    max-width: 95%;
-   font-size: 1rem;
+   font-size: 1.1rem;
    line-height: 1.5em;
    text-align: center;
  }
