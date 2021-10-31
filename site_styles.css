@@ -367,4 +367,8 @@ letter-spacing: -0.01em;
    letter-spacing: -0.01em;
  }
 
+ .popup .popuptext {
+   font-size: 0.9rem;
+ }
+
  }
