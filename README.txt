@@ -8,4 +8,4 @@ Notes:
 Why Sovas? is our Product Page. 
 Payment_plans.html is our pricing page.
 
-Website link: https://sovas.co
+Website link: https://sovas.co/
