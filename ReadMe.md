@@ -1,4 +1,4 @@
-<h1>SOVAS is an A.I. that helps people learn languages faster through creating an immersive experience for them.</h1>
+<h1>SOVAS is an A.I. that helps people learn languages faster by creating an immersive experience for them.</h1>
 
 <p>Team members: Jay Ghosh, Tal Musienko, Talia Lee, Shaylin Thadani.
 
