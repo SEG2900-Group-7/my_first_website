@@ -1,7 +1,7 @@
 /*Product Features Page*/
 .pf_title{
   display: flex;
-  height: 50vh;
+  height: auto;
   padding-right: 5%;
   padding-left: 5%;
   justify-content: center;
@@ -11,7 +11,7 @@
 .pf_big_heading {
   position: relative;
   color: #fff;
-  font-size: 85px;
+  font-size: 90px;
   line-height: 1.1em;
   font-weight: 700;
   text-align: center;
@@ -22,15 +22,14 @@
   height: 100%;
   padding-left: 30vw;
   padding-right: 30vw;
+  padding-top: 30vh;
+  padding-bottom: 28vh;
   max-width: 1300px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: auto;
-  margin-left: auto;
   background-image: url("images/gradient3.jpg");
   background-position: 100% 50%;
-  background-size: auto;
   border-radius: 20px;
 }
 

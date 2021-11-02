@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: auto;
     padding-right: 5%;
     padding-left: 5%;
   }
@@ -10,6 +10,8 @@
   
   .pricing_head_container{
     height: 100%;
+    padding-top: 32vh;
+    padding-bottom: 32vh;
     padding-left: 12vw;
     padding-right: 12vw;
     max-width: 1300px;
@@ -77,20 +79,25 @@
   .pricing_block{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     width: 100%;
     height: 100%;
     padding: 10vh 7%;
     border-radius: 20px;
     background-color: #ececec;
+    box-shadow: rgb(0 0 0 / 25%) 0px 25px 20px -12px;
+  }
+
+  .price_container{
+    text-align: center;
   }
   
   
   .pricing_block_heading{
     margin-bottom: 5px;
     color: #000;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     line-height: 1.1em;
     font-weight: 700;
     letter-spacing: -0.01em;
