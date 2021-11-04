@@ -11,7 +11,7 @@
 .pf_big_heading {
   position: relative;
   color: #fff;
-  font-size: 90px;
+  font-size: 85px;
   line-height: 1.1em;
   font-weight: 700;
   text-align: center;
@@ -19,7 +19,7 @@
 }
 
 .pf_title_text{
-  height: 100%;
+  height: auto;
   padding-left: 30vw;
   padding-right: 30vw;
   padding-top: 30vh;
@@ -121,5 +121,52 @@
   margin-bottom: 10px;
   font-size: 65px; 
   letter-spacing: -0.01em;
+}
+
+@media screen and (max-width: 960px){
+
+.pf_title_text{
+  height: auto;
+  padding: 25vh 20%;
+}
+
+.pf_text_and_images{
+  height: auto;
+  padding: 5vh 5%;
+}
+
+.pf_grid{
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.pf_text_div{
+  grid-row: 1/2;
+}
+
+.pf_image_div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  grid-row: 2/3;
+}
+
+.pf_image{
+  width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
   

@@ -10,10 +10,10 @@
   
   .pricing_head_container{
     height: 100%;
-    padding-top: 32vh;
-    padding-bottom: 32vh;
-    padding-left: 12vw;
-    padding-right: 12vw;
+    padding-top: 31vh;
+    padding-bottom: 31vh;
+    padding-left: 13vw;
+    padding-right: 13vw;
     max-width: 1300px;
     display: flex;
     align-items: center;
@@ -146,7 +146,7 @@
 
     .pricing_head_container{
         height: auto;
-        padding: 18vh 10%;
+        padding: 20vh 10%;
     }
 
     .pricing_big_heading{
