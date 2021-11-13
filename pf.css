@@ -122,21 +122,26 @@
   letter-spacing: -0.01em;
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 900px){
+
+.pf_title{
+  height: auto;
+}
 
 .pf_title_text{
   height: auto;
-  padding: 25vh 20%;
+  padding: 33vh 10%;
 }
 
 .pf_text_and_images{
   height: auto;
-  padding: 5vh 5%;
+  margin-top: 10vh;
+  padding: 2vh 5%;
 }
 
 .pf_grid{
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 0.3fr 1fr;
   grid-row-gap: 0;
 }
 
@@ -154,14 +159,17 @@
 
 .pf_image{
   width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .pf_heading{
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .pf_paragraph{
-  font-size: 1.1rem;
+  font-size: 1.4rem;
+  line-height: 1.5em;
 }
 
 
