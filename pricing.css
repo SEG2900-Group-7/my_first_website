@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
+    height: 79vh;
     padding-right: 5%;
     padding-left: 5%;
   }
@@ -10,10 +10,9 @@
   
   .pricing_head_container{
     height: 100%;
-    padding-top: 31vh;
-    padding-bottom: 31vh;
-    padding-left: 13vw;
-    padding-right: 13vw;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
     max-width: 1300px;
     display: flex;
     align-items: center;
@@ -42,11 +41,12 @@
   .pricing_sub_heading{
     margin-top: 0px;
     color: #fff;
-    font-size: 22px;
+    font-size: 25px;
     line-height: 1.5em;
     font-weight: 500;
     letter-spacing: -0.01em;
     text-align: center;
+    margin-top: 5px;
   }
   
   .sub_heading_underline{
@@ -146,7 +146,7 @@
 
     .pricing_head_container{
         height: auto;
-        padding: 20vh 10%;
+        padding: 24vh 10%;
     }
 
     .pricing_big_heading{
@@ -156,7 +156,7 @@
     }
 
     .pricing_sub_heading{
-      font-size: 25px;
+      font-size: 22px;
     }
     
     .pricing_main_grid{
