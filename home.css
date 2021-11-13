@@ -13,7 +13,7 @@
   align-items: center;
   height: auto;
   padding: 5vh 5% 5vh 5%;
-}
+} 
 
 .home_container{
   display: flex;
@@ -243,6 +243,7 @@
   flex-direction: column;
   height: auto;
   margin-top: 0;
+  padding-top: 0;
   }
 
   .home_grid{
