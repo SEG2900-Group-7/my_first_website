@@ -186,6 +186,7 @@
 
   .pf_start_learning_content{
     width: 100%;
+    padding: 0 10%;
   }
 
 }
@@ -209,6 +210,14 @@
     font-size: 1.1rem;
   }
 
+  .pf_start_learning{
+    height: auto;
+  }
+
+  .pf_start_learning_content{
+    height: 600px;
+  }
+
   .pf_start_today{
     font-size: 3rem;
   }
@@ -216,4 +225,5 @@
   .pf_text_and_images{
     padding: 0 10%;
   }
+
 }
