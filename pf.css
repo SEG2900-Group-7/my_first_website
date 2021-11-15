@@ -202,12 +202,13 @@
   }
 
   .pf_heading{
-    font-size: 2.2rem;
+    font-size: 25px;
     line-height: 1.3em;
   }
 
   .pf_paragraph{
-    font-size: 1.1rem;
+    font-size: 1rem;
+    max-width: 95%;
   }
 
   .pf_start_learning{
@@ -219,11 +220,11 @@
   }
 
   .pf_start_today{
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
 
   .pf_text_and_images{
-    padding: 0 10%;
+    padding: 0 7%;
   }
 
 }
