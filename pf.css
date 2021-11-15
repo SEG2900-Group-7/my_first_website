@@ -95,14 +95,12 @@
 
 .pf_start_learning{
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 60vh;
+  height: auto;
   margin-top: 50px;
-  margin-bottom: -40px;
-  padding-right: 5%;
-  padding-left: 5%;
+  margin-bottom: 40px;
+  padding: 0 5%;
 }
 
 .pf_start_learning_content{
@@ -112,76 +110,108 @@
   align-items: center;
   width: 1200px;
   height: 450px;
+  padding: 0 5%;
   border-radius: 20px;
   background-color: #e4e4e4;
 }
 
 .pf_start_today{
   margin-bottom: 10px;
-  font-size: 65px; 
+  font-size: 55px; 
   letter-spacing: -0.01em;
+  text-align: center;
+  line-height: 1.3em;
 }
+
+
+@media screen and (max-width: 1200px){
+  .pf_start_learning_content{
+    width: 1000px;
+    padding: 0 5%;
+}
+
 
 @media screen and (max-width: 900px){
 
-.pf_title{
-  height: auto;
+  .pf_title{
+    height: auto;
+  }
+
+  .pf_title_text{
+    height: auto;
+    padding: 33vh 10%;
+  }
+
+  .pf_text_and_images{
+    height: auto;
+    margin-top: 7vh;
+    padding: 2vh 5%;
+  }
+
+  .pf_grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1fr;
+    grid-row-gap: 0;
+  }
+
+  .pf_text_div{
+    grid-row: 1/2;
+  }
+
+  .pf_image_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    grid-row: 2/3;
+  }
+
+  .pf_image{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .pf_heading{
+    font-size: 3rem;
+  }
+
+  .pf_paragraph{
+    font-size: 1.4rem;
+    line-height: 1.5em;
+  }
+
+  .pf_start_learning{
+    height: auto;
+  }
+
+  .pf_start_learning_content{
+    width: 100%;
+  }
+
 }
 
-.pf_title_text{
-  height: auto;
-  padding: 33vh 10%;
-}
+@media screen and (max-width: 650px){
+  
+  .pf_title{
+    height: auto;
+  }
 
-.pf_text_and_images{
-  height: auto;
-  margin-top: 10vh;
-  padding: 2vh 5%;
-}
+  .pf_big_heading{
+    font-size: 50px;
+  }
 
-.pf_grid{
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.3fr 1fr;
-  grid-row-gap: 0;
-}
+  .pf_heading{
+    font-size: 2.5rem;
+    line-height: 1.3em;
+  }
 
-.pf_text_div{
-  grid-row: 1/2;
-}
+  .pf_paragraph{
+    font-size: 1.2rem;
+  }
 
-.pf_image_div{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  grid-row: 2/3;
-}
-
-.pf_image{
-  width: 100%;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.pf_heading{
-  font-size: 4rem;
-}
-
-.pf_paragraph{
-  font-size: 1.4rem;
-  line-height: 1.5em;
-}
-
-
-
-
-
-
-
-
-
-
-
-
+  .pf_start_today{
+    font-size: 3rem;
+  }
 }
   
